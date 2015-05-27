@@ -1,0 +1,27 @@
+{
+  "name": "Shinners and Co.",
+  "version": "0.0.3",
+  "manifest_version": 2,
+  "description": "Work with Google Drive with ease",
+  "icons": {
+    "16": "icons/icon_128.png",
+    "24": "icons/icon_128.png",
+    "128": "icons/icon_128.png"
+  },
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  "browser_action": {
+    "default_icon": "icons/icon_128.png",
+    "default_title": "Work with Drive",
+    "default_popup": "popup.html"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs8AUOK1lTADJNXyqx4wl7utAxi8qul/K5cCimFQ05DbcaOZkdBSN8eX4wXuKHJ72MPi87Atlrt9ye5R7+DdjuSWC2/m+oyMjL82klZfY/7RTNgHKy0RaHbXhVnjiwDI2tBISDAWNWnMJ+JfRIRiYUkC9L4I5Ss2GcJv7ijtzKoB+s5UjD2IKVeUtTEjlcf2drOEQyAondjVFO2qOQxlSLzSsdgeA+BQas3S9Q0j+3yyCexkmmv2zGaNlGYHhRgK5KDgIf5hCh8fDb5o8Vp6AFpMNpJ8C75myX3zwj9To4t9FJTb9qe5cYz2Fx1703Up/muGJknXFaiHNrwxCFS2snQIDAQAB",
+  "oauth2": {
+    "client_id": "848400401176-cjsbjfvco38dsn7ip4dmflff5abnsc57.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/drive"
+    ]
+  },
+  "permissions": [
+  "identity"
+  ]
+}
